@@ -21,7 +21,7 @@ defmodule ExReddit.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 1.8"},
+      {:httpoison, ">= 1.8.0"},
       {:poison, "~> 4.0"}
     ]
   end
